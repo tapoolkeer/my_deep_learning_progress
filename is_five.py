@@ -107,23 +107,3 @@ def main():
 
 main()
 
-"""
-train(200000)
-
-print("Weights: ", weights)
-
-print('\n')
-
-for i in range(len(digits)):
-    print_digit(digits[i])
-    print('---')
-    print('Is five? -', proceed(digits[i]))
-    print('\n')
-
-print("Is five? ", proceed(digit5))
-print("Is five? ", proceed(digit50))
-print("Is five? ", proceed(digit51))
-print("Is five? ", proceed(digit52))
-print("Is five? ", proceed(digit53))
-print("Is five? ", proceed(digit54))
-"""
