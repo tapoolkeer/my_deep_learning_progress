@@ -100,7 +100,7 @@ def main():
     print_digits(digits)
     print_results(digits)
     train(10000)
-    print("Weights before training: {}\n".format(weights))
+    print("Weights after training: {}\n".format(weights))
     print("Answers after training(is five?): \n")
     print_digits(test_digits)
     print_results(test_digits)
